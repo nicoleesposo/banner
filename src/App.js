@@ -1,10 +1,12 @@
 import Demo from './components/Demo'
 import Tagline from './components/Tagline'
+import Banner from './Banner'
 
 function App() {
 	return ( 
-		<div className = "App">
-		hello </div>
+		<>
+			<Banner />
+		</>
 	);
 }
 
